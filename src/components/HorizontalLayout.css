@@ -1,0 +1,138 @@
+.horizontal-layout {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  gap: 10px;
+  white-space: nowrap;
+  margin-inline: auto;
+  max-width: calc(100vw - 15px);
+}
+
+.column {
+  min-width: 300px;
+  flex: 0 0 auto;
+  background: #f2f4f7;
+  padding: 7px;
+  border-radius: 8px;
+}
+
+.column__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.column__header button {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #dbe6f763;
+  border-radius: 5px;
+  padding: 3px 5px 3px 5px;
+}
+
+.column__header h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.cards-container {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+.card {
+  background: #fff;
+  padding: 10px;
+  margin: 12px 0;
+  border-radius: 4px;
+}
+
+.card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px 0px;
+}
+
+.card_user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_user div {
+  display: flex;
+  align-items: center;
+  gap: 0px 3px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+}
+
+.avator_image {
+  width: 25px;
+  height: 25px;
+}
+
+.card__main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__main {
+  display: flex;
+  align-items: center;
+  gap: 0px 4px;
+}
+
+.card__main:nth-child(2) {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #dbe6f756;
+  border-radius: 5px;
+  padding: 3px 5px 3px 5px;
+}
+
+.card__main svg {
+  font-size: 12px;
+  color: #333;
+}
+
+.card__description {
+  font-size: 12px;
+  color: #333;
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__footer > div {
+  display: flex;
+  align-items: center;
+  gap: 0px 6px;
+}
+
+.card__footer-content {
+  display: flex;
+  align-items: center;
+  gap: 0px 5px;
+}
+
+.card__footer-content > button:first-child {
+  font-size: 12px;
+  background-color: #dbe6f756;
+  border-radius: 5px;
+  padding: 3px 5px 3px 5px;
+}
+
+.card__footer-content > button {
+  font-size: 12px;
+  display: flex;
+  gap: 0px 3px;
+  align-items: center;
+}

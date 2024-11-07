@@ -1,3 +1,37 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.horizontal-layout::-webkit-scrollbar {
+  width: 6px;
+  height: 12px;
+}
+.horizontal-layout::-webkit-scrollbar-track {
+  background: #bbbbbb;
+  border-radius: 8px;
+}
+
+.horizontal-layout::-webkit-scrollbar-thumb {
+  background-color: #0078d7;
+  border-radius: 8px;
+  border: 2px solid #bbbbbb;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e0e0e0;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0078d7;
+  border-radius: 8px;
+}
